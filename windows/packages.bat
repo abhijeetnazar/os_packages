@@ -1,5 +1,3 @@
-:: choco install .\packages.config -y --ignore-checksums
-
 choco install vlc -y
 choco install git.install -y
 choco install 7zip.install -y

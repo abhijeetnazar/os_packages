@@ -1,5 +1,12 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# ZSH
+xcode-select —-install
+brew install --cask iterm2
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+source ~/.zshrc
+
 # Multimedia
 brew install --cask 5kplayer
 brew install --cask vlc

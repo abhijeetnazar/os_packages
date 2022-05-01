@@ -33,6 +33,8 @@ brew install --cask microsoft-remote-desktop
 brew install --cask anydesk
 brew install --cask alt-tab
 brew install --cask alfred
+brew install --cask rectangle
+brew install --cask iterm2
 brew install openvpn
 # Development
 brew install --cask visual-studio-code

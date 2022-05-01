@@ -30,7 +30,7 @@ do
 done
 
 echo "Installing system tools..."
-system=('shottr' 'kindle' 'qbittorrent'	 'transnomino' 'iriunwebcam' 'vnc-server'	' vnc-viewer' 'microsoft-remote-desktop' 'anydesk' 'ksnip' 'alfred' 'alt-tab')
+system=('shottr' 'kindle' 'qbittorrent'	 'transnomino' 'iriunwebcam' 'vnc-server'	' vnc-viewer' 'microsoft-remote-desktop' 'anydesk' 'ksnip' 'alfred' 'alt-tab' 'rectangle' 'iterm2')
 for i in "${system[@]}"
 do
 	echo "brew install --cask $i"

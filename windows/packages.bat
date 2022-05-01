@@ -28,7 +28,6 @@ choco install sharex -y
 choco install realvnc -y
 choco install office365business -y
 choco install gom-player -y
-choco install freefilesync -y
 choco install teracopy -y
 choco install openvpn-connect -y
 choco install bluescreenview.install -y

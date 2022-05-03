@@ -38,3 +38,4 @@ choco install mobaxterm -y
 choco install sourcetree -y
 choco install chrome-remote-desktop-host -y
 choco install sql-server-management-studio
+choco install docker-desktop -y

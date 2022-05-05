@@ -8,16 +8,16 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 source ~/.zshrc
 
-# Multimedia
-brew install --cask 5kplayer
-brew install --cask vlc
-brew install --cask obs
-brew install --cask xnviewmp
-brew install --cask spotify
-brew install --cask audacity
-brew install --cask handbrake
-brew install --cask gimp
-brew install --cask kdenlive
+# Multimedia 
+brew install --cask 5kplayer # Video player
+brew install --cask vlc # Video player
+brew install --cask obs # Screen recorder
+brew install --cask xnviewmp # Image viewer
+brew install --cask spotify # Music player
+brew install --cask audacity # Audio editor
+brew install --cask handbrake # Video converter
+brew install --cask gimp # Image editor
+brew install --cask kdenlive # Video editor
 # Google
 brew install --cask google-drive
 brew install --cask google-chrome
@@ -30,19 +30,21 @@ brew install --cask adobe-acrobat-reader
 brew install --cask calibre
 brew install --cask coteditor
 # System
-brew install --cask shottr
-brew install --cask kindle
-brew install --cask qbittorrent
-brew install --cask transnomino
-brew install --cask iriunwebcam
-brew install --cask vnc-server
-brew install --cask vnc-viewer
-brew install --cask microsoft-remote-desktop
-brew install --cask anydesk
-brew install --cask alt-tab
-brew install --cask alfred
-brew install --cask rectangle
-brew install --cask iterm2
+brew install --cask shottr # screenshot tool
+brew install --cask kindle # Book reader
+brew install --cask qbittorrent # Bit torrent client
+brew install --cask transnomino # Bulk file renamer for Mac
+brew install --cask iriunwebcam # Convert android phone to webcam
+brew install --cask vnc-server # Remote desktop server
+brew install --cask vnc-viewer # Remote desktop client
+brew install --cask microsoft-remote-desktop # Windows remote desktop client
+brew install --cask anydesk # Remote desktop managment
+brew install --cask alt-tab # Windows like functionaltiy on mac
+brew install --cask alfred # Spotlight replacement and works better than spotlight
+brew install --cask rectangle # Window Manager for mac
+brew install --cask iterm2 # terminal alternative for mac
+brew install --cask pensela # Open source tool for screen annotation
+brew install --cask hiddenbar
 brew install openvpn
 # Development
 brew install --cask visual-studio-code

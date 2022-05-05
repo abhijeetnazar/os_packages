@@ -30,28 +30,28 @@ do
 done
 
 echo "Installing system tools..."
-system=('shottr' 'kindle' 'qbittorrent'	 'transnomino' 'iriunwebcam' 'vnc-server'	' vnc-viewer' 'microsoft-remote-desktop' 'anydesk' 'ksnip' 'alfred' 'alt-tab' 'rectangle' 'iterm2' 'pensela' 'hiddenbar')
+system=('shottr' 'kindle' 'qbittorrent'	 'transnomino' 'iriunwebcam' 'vnc-server'	' vnc-viewer' 'microsoft-remote-desktop' 'anydesk' 'ksnip' 'alfred' 'alt-tab' 'rectangle' 'iterm2' 'pensela' 'hiddenbar' 'openvpn-connect')
 for i in "${system[@]}"
 do
 	echo "brew install --cask $i"
 done
 
 echo "Installing development tools..."
-development=('visual-studio-code' 'anaconda' 'postman' 'dbeaver-community'	'pycharm-ce')
+development=('visual-studio-code' 'anaconda' 'postman' 'dbeaver-community'	'pycharm-ce' 'sourcetree' 'oracle-jdk' )
 for i in "${development[@]}"
 do
 	echo "brew install --cask $i"
 done
 
 echo "Installing other tools..."
-others=('sourcetree' 'oracle-jdk' 'whatsapp')
+others=('whatsapp')
 for i in "${others[@]}"
 do
 	echo "brew install --cask $i"
 done
 
 echo "Installing non cask tools..."
-noncask=('git' 'openvpn')
+noncask=('git' 'docker')
 for i in "${noncask[@]}"
 do
 	echo "brew install $i"

@@ -44,15 +44,17 @@ brew install --cask alfred # Spotlight replacement and works better than spotlig
 brew install --cask rectangle # Window Manager for mac
 brew install --cask iterm2 # terminal alternative for mac
 brew install --cask pensela # Open source tool for screen annotation
-brew install --cask hiddenbar
-brew install openvpn
+brew install --cask hiddenbar # Hide dock and menu bar
+brew install --cask openvpn-connect # VPN client
 # Development
 brew install --cask visual-studio-code
 brew install --cask anaconda
 brew install --cask postman
 brew install --cask dbeaver-community
 brew install --cask pycharm-ce
-brew install git
 brew install --cask sourcetree
 brew install --cask oracle-jdk
+brew install git
+brew install docker
+# Communication
 brew install --cask whatsapp

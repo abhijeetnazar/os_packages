@@ -38,7 +38,7 @@ brew install --cask iriunwebcam # Convert android phone to webcam
 brew install --cask vnc-server # Remote desktop server
 brew install --cask vnc-viewer # Remote desktop client
 brew install --cask microsoft-remote-desktop # Windows remote desktop client
-brew install --cask anydesk # Remote desktop managment
+# brew install --cask anydesk # Remote desktop managment
 brew install --cask alt-tab # Windows like functionaltiy on mac
 brew install --cask alfred # Spotlight replacement and works better than spotlight
 brew install --cask rectangle # Window Manager for mac
@@ -58,3 +58,7 @@ brew install git
 brew install docker
 # Communication
 brew install --cask whatsapp
+
+# Others
+brew install --cask onyx # cleanmymac
+brew install --cask appcleaner # clean up apps

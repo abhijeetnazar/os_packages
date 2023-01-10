@@ -17,6 +17,7 @@ choco install youtube-dl -y
 choco install audacity -y
 choco install calibre -y
 choco install dbeaver -y
+choco install github-desktop -y
 choco install kdenlive -y
 choco install xnview -y
 choco install handbrake -y

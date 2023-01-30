@@ -29,6 +29,7 @@ brew install --cask zoom
 brew install --cask adobe-acrobat-reader
 brew install --cask calibre
 brew install --cask coteditor
+brew install --cask obsidian
 # System
 brew install --cask shottr # screenshot tool
 brew install --cask kindle # Book reader
@@ -38,11 +39,12 @@ brew install --cask iriunwebcam # Convert android phone to webcam
 brew install --cask vnc-server # Remote desktop server
 brew install --cask vnc-viewer # Remote desktop client
 brew install --cask microsoft-remote-desktop # Windows remote desktop client
+brew install blackhole-16ch
 # brew install --cask anydesk # Remote desktop managment
 brew install --cask alt-tab # Windows like functionaltiy on mac
 brew install --cask alfred # Spotlight replacement and works better than spotlight
 brew install --cask rectangle # Window Manager for mac
-brew install --cask iterm2 # terminal alternative for mac
+brew install --cask brackets
 brew install --cask pensela # Open source tool for screen annotation
 brew install --cask hiddenbar # Hide dock and menu bar
 brew install --cask openvpn-connect # VPN client
@@ -53,9 +55,14 @@ brew install --cask postman
 brew install --cask dbeaver-community
 brew install --cask pycharm-ce
 brew install --cask sourcetree
-brew install --cask oracle-jdk
+# brew install --cask oracle-jdk
+brew cask install java
+
+brew install scala
+brew install apache-spark
 brew install git
 brew install docker
+
 # Communication
 brew install --cask whatsapp
 

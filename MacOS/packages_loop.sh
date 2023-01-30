@@ -23,21 +23,21 @@ do
 done
 
 echo "Installing office tools..."
-office=('zoom' 'adobe-acrobat-reader' 'calibre' 'coteditor')
+office=('zoom' 'adobe-acrobat-reader' 'calibre' 'coteditor','obsidian')
 for i in "${office[@]}"
 do
 	echo "brew install --cask $i"
 done
 
 echo "Installing system tools..."
-system=('shottr' 'kindle' 'qbittorrent'	 'transnomino' 'iriunwebcam' 'vnc-server'	' vnc-viewer' 'microsoft-remote-desktop' 'anydesk' 'ksnip' 'alfred' 'alt-tab' 'rectangle' 'iterm2' 'pensela' 'hiddenbar' 'openvpn-connect')
+system=('shottr' 'kindle' 'qbittorrent'	 'transnomino' 'iriunwebcam' 'vnc-server'	' vnc-viewer' 'microsoft-remote-desktop' 'anydesk' 'ksnip' 'alfred' 'alt-tab' 'rectangle' 'iterm2' 'pensela' 'hiddenbar' 'openvpn-connect' 'brackets')
 for i in "${system[@]}"
 do
 	echo "brew install --cask $i"
 done
 
 echo "Installing development tools..."
-development=('visual-studio-code' 'anaconda' 'postman' 'dbeaver-community'	'pycharm-ce' 'sourcetree' 'oracle-jdk' )
+development=('visual-studio-code' 'anaconda' 'postman' 'dbeaver-community'	'pycharm-ce' 'sourcetree' 'oracle-jdk' 'java')
 for i in "${development[@]}"
 do
 	echo "brew install --cask $i"
@@ -51,7 +51,7 @@ do
 done
 
 echo "Installing non cask tools..."
-noncask=('git' 'docker')
+noncask=('git' 'docker' 'scala' 'apache-spark','blackhole-16ch')
 for i in "${noncask[@]}"
 do
 	echo "brew install $i"

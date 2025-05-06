@@ -31,6 +31,8 @@ brew install --cask affinity-photo # Photo editor
 # Google
 brew install --cask google-drive
 brew install --cask google-chrome
+#
+brew install --cask brave-browser
 # MS
 brew install --cask microsoft-office
 brew install --cask microsoft-edge
@@ -39,14 +41,20 @@ brew install --cask zoom
 brew install --cask adobe-acrobat-reader
 brew install --cask calibre
 brew install --cask coteditor
+brew install --cask microsoft-office
 
 # System
 brew install --cask shottr # screenshot tool
+brew install --cask xnapper # screenshot tool
 brew install --cask kindle # Book reader
 brew install --cask qbittorrent # Bit torrent client
 brew install --cask transnomino # Bulk file renamer for Mac
 brew install --cask iriunwebcam # Convert android phone to webcam
+brew install --cask camo-studio # Virtual webcam
 brew install --cask microsoft-remote-desktop # Windows remote desktop client
+brew install --cask rustdesk # Remote desktop
+brew install --cask parsec # Remote desktop
+brew install --cask paragon-ntfs # NTFS driver
 brew install blackhole-16ch
 
 brew install --cask alt-tab # Windows like functionaltiy on mac
@@ -54,6 +62,7 @@ brew install --cask alfred # Spotlight replacement and works better than spotlig
 brew install --cask rectangle # Window Manager for mac
 brew install --cask pensela # Open source tool for screen annotation
 brew install --cask openvpn-connect # VPN client
+brew install --cask tailscale # VPN client
 
 # Development
 brew install --cask visual-studio-code
@@ -69,6 +78,10 @@ brew install docker
 
 # Communication
 brew install --cask whatsapp
+brew install --cask discord
+brew install --cask zoom
+brew install --cask telegram
+brew install --cask slack
 
 # Others
 brew install --cask onyx # cleanmymac
@@ -84,3 +97,6 @@ brew install --cask appcleaner # clean up apps
 # brew install --cask pycharm-ce
 # brew install --cask sourcetree
 # brew install --cask brackets
+
+# Appstore
+# pdfgear, pdf professional suit, lumafusion, luminar neo, davinci resolve, filezilla
